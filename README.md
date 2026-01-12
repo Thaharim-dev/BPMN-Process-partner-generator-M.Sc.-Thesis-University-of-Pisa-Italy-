@@ -1,2 +1,2 @@
 # BPMN-Process-partner-generator-M.Sc.-Thesis-University-of-Pisa-Italy-
-Given a single BPMN process, the idea is to generate automatically the skeleton of a "dual" partner for it.
+Given a single BPMN process, the idea is to generate the skeleton of a "dual" partner for it.  The idea is to create the skeleton of a "dual" partner for it. Roughly, send activities will correspond to receive activities, and vice versa, XOR-splits to event-based gateways, and every other element will be preserved. The theoretical part would consist of defining the concept of "dual". The main practical difficulty is to find some libraries to parse and write .bpmn files, as otherwise they must be implemented 
