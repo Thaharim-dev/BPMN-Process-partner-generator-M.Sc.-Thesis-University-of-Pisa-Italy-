@@ -5,6 +5,16 @@ Given a single BPMN process, the idea is to generate the skeleton of a "dual" pa
 # Motivation
 The increasing adoption of BPMN for modelling collaborative business processes raises the problem of designing correct and compatible partner processes. Currently, partner processes are often constructed manually, which is error-prone and lacks formal guarantees of interaction correctness. This thesis addresses this issue by introducing the concept of a dual BPMN process, which can be automatically generated from a single BPMN model. The proposed approach ensures communication compatibility by construction and provides a formal foundation for partner process generation, while also tackling practical challenges related to BPMN model parsing and transformation.
 
+**Given BPMN Diagram**
+
+![Figure 14](https://github.com/user-attachments/assets/a958c0ba-ecc5-4ed7-834e-74df43f09f2a)
+
+**Dual Partner of the Given BPMN Diagram**
+
+![Figure 15](https://github.com/user-attachments/assets/ea168847-f072-4ab0-bf1b-e9abfd4646a9)
+
+
+
 # Instructions for setting up the library (locally):
 **1. Keep this "my_bpmn_library" folder in a feasible place where all the code can be easily managed** 
  
